@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="dropdown">
+      <div class="dropdown__selected">
+        <i class="fa-solid fa-file dropdown__icon"></i>
+        <span class="dropdown__text">File type</span>
+        <i class="fa-solid fa-angle-down dropdown__caret"></i>
+      </div>
+      <ul class="dropdown__list">
+        <li class="dropdown__item">
+          <i class="fa-solid fa-file-image dropdown__icon"></i>
+          <span class="dropdown__text">Markup HTML</span>
+        </li>
+        <li class="dropdown__item">
+          <i class="fa-solid fa-file-powerpoint dropdown__icon"></i>
+          <span class="dropdown__text">Markup HTML</span>
+        </li>
+        <li class="dropdown__item">
+          <i class="fa-solid fa-file-word dropdown__icon"></i>
+          <span class="dropdown__text">Markup HTML</span>
+        </li>
+        <li class="dropdown__item">
+          <i class="fa-solid fa-file-video dropdown__icon"></i>
+          <span class="dropdown__text">Markup HTML</span>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
